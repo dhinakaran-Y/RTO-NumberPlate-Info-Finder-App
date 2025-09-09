@@ -900,4 +900,4 @@ function download(data , fileName , type ) {
     aEl.click();
 }
 
-download(rtoData , 'data.json' , 'application/json');
+//download(rtoData , 'data.json' , 'application/json');

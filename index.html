@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/src/output.css">
 </head>
 <body class="bg-gray-50">
+    <main>
     <div class="h-64 bg-blue-400">
         <ul class="uppercase font-bold flex space-x-4 justify-end p-5 text-xs">
             <li class="hover:text-orange-500" onclick="alert('Create with Love.')">ABOUT</li>
@@ -27,8 +28,11 @@
         </div>
     </div>
 
+    <!-- not found -->
+     <p class="hidden w-full text-5xl h-56 justify-center content-center flex text-red-600 font-bold" id="none">Not Found!!!</p>
+
     <!-- Result start div -->
-     <div class="bg-white m-10 shadow p-5 rounded" id="resultSection">
+     <div class="bg-white m-10 shadow p-5 rounded hidden" id="resultSection">
         <div class="ml-7"><span class="text-xs">Your Query:</span> <span class="font-semibold tracking-widest" id="query">TN12</span></div>
         
         <table class="my-5 text-sm w-11/12 mx-auto">
@@ -55,8 +59,9 @@
             </tbody>
         </table>
      </div>
-    
+     </main>
+    <script src='./assets/js/main.js'></script>
 </body>
 <!-- <script src="./assets/js/downloaded-data.js"></script> -->
- <script src="./assets/js/main.js"></script>
+ 
 </html>
